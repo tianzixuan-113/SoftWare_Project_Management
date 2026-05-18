@@ -8,6 +8,8 @@ import pandas as pd
 import numpy as np
 import csv
 
+#change LinerModule_pre.py -B2 -initial
+
 class StockDataset(Dataset):
     def __init__(self,data_path,size,isbin):
         self.data=[]
