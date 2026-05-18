@@ -11,6 +11,8 @@ import random
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import MinMaxScaler
 
+#change the LinerModule.py -B2 -initial
+
 class StockDataset(Dataset):
     def __init__(self,data_path,size,isbin,datalength,istext=False):
         self.data=[]
