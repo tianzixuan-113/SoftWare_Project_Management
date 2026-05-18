@@ -10,6 +10,8 @@ import csv
 import random
 from sklearn.preprocessing import StandardScaler
 
+#change RnnModule_double.py -B3 -initial
+
 # class StockDataset(Dataset):
 #     def __init__(self,data_path,size,isbin):
 #         self.data=[]
